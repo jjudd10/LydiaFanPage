@@ -70,4 +70,11 @@
   button:hover {
     background-color: #4d637d;
   }
-  
+  .gallery img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
