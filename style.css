@@ -50,8 +50,7 @@ h1 {
   gap: 10px;  /* Space between images */
 }
 
-.gallery img {
-  width: 100%;       /* Each image fits within its container */
+.gallery img {       /* Each image fits within its container */
   max-width: 150px;  /* Ensures images don't get too large */
   height: auto;      /* Maintains the aspect ratio */
   border-radius: 10px;
