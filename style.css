@@ -35,6 +35,10 @@ h1 {
   border-radius: 10px;
   background-color: #ffffff;
   font-size: 1.2rem;
+  word-wrap: break-word;  /* Ensures words break within the container */
+  overflow-wrap: break-word;  /* Prevents long words from overflowing */
+  max-width: 100%;  /* Ensures it doesn't exceed the container width */
+  line-height: 1.5;  /* Improves readability with more space between lines */
 }
 
 .gallery {
